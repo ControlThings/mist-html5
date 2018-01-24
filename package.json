@@ -1,0 +1,30 @@
+{
+  "name": "mist-html5",
+  "version": "1.0.0",
+  "description": "Mist bindings for the web browser and web views.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wish.cto.fi:/git/mist-html5"
+  },
+  "keywords": [
+    "mist",
+    "p2p",
+    "peer-to-peer",
+    "html5",
+    "web",
+    "browser"
+  ],
+  "author": "André Kaustell <andre.kaustell@controlthings.fi>",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "pump": "2.0.1"
+  }
+}
