@@ -20,7 +20,7 @@ gulp.task('scripts', ['clean'], function() {
   // with sourcemaps all the way down 
   return gulp.src(paths.scripts)
     .pipe(uglify())
-    .pipe(concat('all.min.js'))
+    .pipe(concat('mist-api.min.js'))
     .pipe(gulp.dest('dist'));
 });
 
@@ -33,3 +33,4 @@ gulp.task('watch', function() {
 
 // The default task (called when you run `gulp` from cli) 
 gulp.task('default', ['scripts']);
+
